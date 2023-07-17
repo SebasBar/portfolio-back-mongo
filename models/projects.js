@@ -7,7 +7,7 @@ const projectsScheema = new mongoose.Schema({
     description3: String,
     github_link: String,
     deployed_link: String,
-    pictures: [String],
+    pictures: String,
     tech_lang: [{
         name: String,
         description: String,
